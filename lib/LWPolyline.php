@@ -38,6 +38,10 @@ class LWPolyline extends Entity {
     return $this;
   }
 
+  public function getPoints() {
+    return $this->points;
+  }
+
   /**
    * Public function to render an entity, returns a string representation of
    * the entity.
